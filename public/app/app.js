@@ -1,15 +1,5 @@
-var app = angular.module('app',[]);
-app.controller('testCtrl',function(){
+var app = angular.module('app',['ngResource']);
+app.controller('testCtrl',function($resource){
     var vm = this;
-    vm.jobs = [
-        {
-        title : "Sales Person",
-        description : 'you will fight dragons'
-        },
-        {
-        title : "Accountant",
-        description : 'you will use keyboard'
-        }
-    ]
-
+    vm.jobs = $resource('/api/jobs').query();
 })
