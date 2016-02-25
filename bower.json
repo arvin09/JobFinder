@@ -1,0 +1,18 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "authors": [
+    "Arvin <arvin09@gmail.com>"
+  ],
+  "description": "Sample Project appp",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "angular": "~1.5.0",
+    "bootstrap": "~3.3.6"
+  }
+}
